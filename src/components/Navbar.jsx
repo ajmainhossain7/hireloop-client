@@ -22,12 +22,12 @@ export default function Navbar() {
       href: "/jobs",
     },
     {
-      label: "Company",
-      href: "/company",
+      label: "Companies",
+      href: "/companies",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
+      label: "PPlans",
+      href: "/plans",
     },
   ];
 
