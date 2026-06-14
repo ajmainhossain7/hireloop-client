@@ -1,4 +1,4 @@
-// import JobListingContainer from "@/components/jobs/JobListingContainer";
+
 import JobListingContainer from "@/components/jobs/JobListionContainer";
 import { getJobs } from "@/lib/api/jobs";
 

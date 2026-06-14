@@ -5,8 +5,8 @@ import Stripe from 'stripe'
 export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 
 export const PLAN_PRICE_ID = {
-    'seeker_pro': 'prod_UhAuTPMSFdTRp9',
-    'seeker_premium': 'prod_UhAvmc1uvvCjTw',
-    'recruiter_growth': 'prod_UhAx3cs9X9sxlD',
-    'recruiter_enterprise': 'prod_UhAyHDc3T2s6tj'
+    'seeker_pro': 'price_1ThmYh2KZ1N98f5MEQqHKOAt',
+    'seeker_premium': 'price_1ThmZV2KZ1N98f5MJhCcM7IN',
+    'recruiter_growth': 'price_1ThmbO2KZ1N98f5MUTiUh1x6',
+    'recruiter_enterprise': 'price_1ThmcH2KZ1N98f5MBl7MBQA5'
 }
