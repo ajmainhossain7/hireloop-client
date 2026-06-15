@@ -6,6 +6,11 @@ export const createCompany = async (newCompanyData) => {
     return serverMutation('/api/companies', newCompanyData);
 }
 
+export const updateCompany = async (id, data) => {
+    const result = await serverMutation(`/api/companies/${id}`, data, 'PATCH');
+    revalidatePath('/dashboard/admin/companies');
+    return result;
+}
 
 
 
